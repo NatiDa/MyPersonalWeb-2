@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.Position{
+   
+    float: left;
+    margin-top: 100px;
+    margin-left: 320px;
+    
+}
+.A{
+    margin-top: 80px;
+}
+.Position h1{
+    text-align: center;
+   font-size: 60px;
+   font-weight:1;
+}
+.Position p{
+    padding-top:8px;
+}
+.B{
+    margin-top:20px;
+}
+.C{
+    margin-top:20px; 
+}
+.C p{
+    padding-top: 10px;
+}
+.E{
+    margin-top: 20px;
+}
+.E p{
+    padding-top:10px;
+}
+.F h2{
+    margin-top: 20px;
+}
+.Position ul li{
+    margin-left: 20px;
+    padding-top:8px;
+    list-style: square;
+}
+
+
