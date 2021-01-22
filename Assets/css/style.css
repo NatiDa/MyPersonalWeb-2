@@ -9,6 +9,7 @@
 
 
 .A{
+    
     margin-top: 80px;
 }
 
@@ -45,7 +46,14 @@
 }
 
 
-
+.contact-form{
+    width:85% ;
+    max-width: 600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: ;
+}
 
 .col-md-10{
     background-color: white;
@@ -63,11 +71,77 @@
     color: white;
     padding-left: 40px;
 }
+.form-control,
+.form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center -webkit-calc(100% - 1px);
+    box-shadow: none;
+    border-radius: 0
 }
+.form-group {
+    position: relative
+}
+.form-group textarea {
+    resize: none
+}
+
+.form-group textarea~.form-control-highlight {
+    margin-top: -11px
+}
+.form-control {
+    margin-bottom: 7px
+}
+label.control-label {
+    font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+    margin: 16px 0 0 0
+}
+
+
+.form-group {
+    padding-bottom: 7px;
+    margin: 28px 0 0 0
+}
+
+.form-group .form-control {
+    margin-bottom: 7px
+}
+.form-group.label-floating.is-focused label.control-label,
+.form-group.label-floating:not(.is-empty) label.control-label,
+.form-group.label-static label.control-label {
+    top: -30px;
+    left: 0;
+    font-size: 12px;
+    line-height: 1.07142857
+}
+.contact-widget-section .single-contact-widget i {
+    font-size: 75px
+}
+
+
+.contact-widget-section .single-contact-widget p {
+    line-height: 16px
+}
+
+
+
+
+#contactForm .form-group label.control-label {
+    color: #8c8c8c
+}
+
+
 .text-center{
     margin-top: 100px;
 }
-
+.mt{
+    margin-top: 30%;
+    margin-left: 30%;
+}
 .col-md-2 h3{
     margin-top: 50px;
     margin-bottom: 80px;
@@ -75,6 +149,7 @@
     color: white;
     
 }
+
 .d-md-none img{
     width: 30px;
     height: 30px;
@@ -91,5 +166,6 @@
 }
 .col-md-2{
     background-color:rgb(33,33,33,1) ;
+    
 
 }
